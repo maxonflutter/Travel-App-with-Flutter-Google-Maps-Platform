@@ -1,0 +1,66 @@
+name: travel_routes
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_dotenv: ^5.1.0   
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  flutter_animate: ^4.2.0
+  google_maps_flutter: ^2.3.1
+  carousel_slider: ^4.2.1
+  riverpod: ^2.3.6
+  riverpod_generator: ^2.2.3
+  riverpod_annotation: ^2.1.1
+  hooks_riverpod: ^2.3.6
+  geolocator: ^9.0.2
+  # location: ^4.2.0 Does not support iOS 16/17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
