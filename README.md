@@ -1,7 +1,7 @@
 # Travel Routes App with Flutter, Google Maps, Riverpod and flutter_animate
 The app is a travel application developed using Flutter and Google Maps Platform. The app integrates with Google Maps using the 'google_maps_flutter' library, displaying user-specific travel locations, points of interest, and efficient travel routes. 
 
-### Get the full code: [https://atomsbox.com](https://sowl.co/s/E9Baj)
+### Get the full code: [https://sowl.co/s/E9Baj](https://sowl.co/s/E9Baj)
 
 Utilizing the 'geolocator' package, the app empowers users with real-time geolocation services. It uses Google's Geocoding API to translate these coordinates into user-friendly addresses, aiding travelers in better understanding their surroundings.
 
