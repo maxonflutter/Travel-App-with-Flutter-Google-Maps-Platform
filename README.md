@@ -24,12 +24,9 @@ This app leverages Riverpod for state management, storing and updating its state
 
 
 ## App Screenshots: 
-| ![Travel Routes App 3](screenshots/travel_routes_3.png) | ![Travel Routes App 2](screenshots/travel_routes_2.png) |
-|:---:|:---:|
-| Home Screen with City Selection | Destination Screen with City Information | 
-| ![Travel Routes App 1](screenshots/travel_routes_1.png) | ![Travel Routes App 4](screenshots/travel_routes_4.png) |
-| Points of Interest Screen | Map Screen with Navigation Details |
-
+| ![Travel Routes App 3](screenshots/travel_routes_3.png) | ![Travel Routes App 2](screenshots/travel_routes_2.png) | ![Travel Routes App 1](screenshots/travel_routes_1.png) | ![Travel Routes App 4](screenshots/travel_routes_4.png) |
+|:---:|:---:|:---:|:---:|
+| Home Screen with City Selection | Destination Screen with City Information | Points of Interest Screen | Map Screen with Navigation Details |
 
 ## Prerequisites
 Before you start, make sure you have the following:
