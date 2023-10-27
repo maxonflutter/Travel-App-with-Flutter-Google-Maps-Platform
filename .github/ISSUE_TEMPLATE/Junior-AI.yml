@@ -1,0 +1,80 @@
+
+name: Junior AI
+description: Create a new task for Junior AI
+title: "Junior AI: "
+labels: ["junior-ai"]
+body:
+  - type: markdown
+    attributes:
+      value: | 
+        ### (Required) What is the task for Junior AI?
+  - type: textarea
+    id: task
+    attributes:
+      label: The scope of work for Junior AI
+      description: Please provide a description of the task that you would like Junior AI to work on.
+      render: shell
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "<br/>"      
+  - type: markdown
+    attributes:
+      value: "### (Optional) Fill the information below to give Junior AI more detailed information"      
+  - type: textarea
+    id: snippets
+    attributes:
+      label: Any relevant code snippet
+      description: Please copy and paste any relevant code snippet for the task. 
+      render: shell
+  - type: textarea
+    id: file_references
+    attributes:
+      label: Any relevant file references
+      description: Please copy and paste the path of any relevant files from the project repository
+      render: shell
+  - type: dropdown
+    id: automated_workflows
+    attributes:
+      label: Automated Workflows
+      description: Do you think any of these automated workflows fit well with your current request?
+      options:
+        - None of the options
+        - API Client Workflow
+        - BLoC Workflow
+        - Cubit Workflow
+        - Data Model Workflow
+        - GoRouter Workflow
+        - Hive Workflow
+        - Localization Workflow
+        - Widget Breakdown Workflow
+        - Theme Workflow
+      default: 0
+    validations:
+      required: false  
+  - type: dropdown
+    id: code_or_test
+    attributes:
+      label: Code or Test
+      description: Do you want Junior AI to generate code or test for the Flutter project?
+      options:
+        - Not sure
+        - Code
+        - Test
+      default: 0
+    validations:
+      required: false
+  - type: dropdown
+    id: create_or_edit
+    attributes:
+      label: Create or Edit
+      description: Do you want Junior AI to write new code or edit any existing part of your app?
+      options:
+        - Not sure
+        - Create
+        - Edit
+      default: 0
+    validations:
+      required: false
+    
